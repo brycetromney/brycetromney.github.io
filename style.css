@@ -8,3 +8,31 @@ body {
   width: 960px;
   margin: 20px auto 20px auto;
 }
+h1 {
+  color: red;
+  font-size: 50px;
+  font-style: italic;
+  font-family: fantasy;
+}
+h2 {
+  color: green;
+  font-size: 40px;
+  font-family: monospace;
+}
+h2 {
+  color: purple;
+}
+h4 {
+color: green;
+}
+#experience{
+  color: purple;
+}
+.experience-and-skills {
+  font-style: italic;
+}
+img {
+  {
+    width: 315px;
+    height: 409px;
+}
