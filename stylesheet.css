@@ -1,0 +1,295 @@
+<base href="/"> <style type="text/css">*,:after,:before{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;} a{color:inherit;text-decoration:none;}h2{line-height:1.75em;}body{background:#111;} @-ms-viewport {
+  width: device-width;
+}
+
+.body {
+  color: #fff;
+  font-family: "Open Sans",Helvetica,sans-serif;
+  font-size: 15pt;
+  font-weight: 400;
+  letter-spacing: .075em;
+  line-height: 1.65em;
+}
+
+@media  screen and (max-width:1680px) {
+  .body {
+    font-size: 13pt;
+  }
+}
+
+@media  screen and (max-width:1280px) {
+  .body {
+    font-size: 12pt;
+  }
+}
+
+@media  screen and (max-width:736px) {
+  .body {
+    font-size: 11pt;
+    letter-spacing: .0375em;
+  }
+}
+
+
+p {
+  margin: 0 0 2em;
+}
+
+h1,
+h2 {
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: .225em;
+  line-height: 1em;
+  margin: 0 0 1em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.35em;
+}
+
+ul.actions {
+  cursor: default;
+  padding-left: 0;
+}
+
+ul.actions li {
+  display: inline-block;
+  padding: 0 1.5em 0 0;
+  vertical-align: middle;
+}
+
+ul.actions li:last-child {
+  padding-right: 0;
+}
+
+@media  screen and (max-width:736px) {
+  ul.actions li {
+    display: block;
+    padding: 1em 0 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  ul.actions li>* {
+    margin: 0 auto!important;
+    max-width: 30em;
+    width: 100%;
+  }
+}
+
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color .2s ease-in-out,color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,color .2s ease-in-out;
+  -ms-transition: background-color .2s ease-in-out,color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,color .2s ease-in-out;
+  background-color: transparent;
+  border-radius: 3px;
+  border: 0;
+  box-shadow: inset 0 0 0 2px #fff;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: .8em;
+  font-weight: 600;
+  height: 3.125em;
+  letter-spacing: .225em;
+  line-height: 3.125em;
+  padding: 0 2.75em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+#banner,
+#banner .more {
+  text-align: center;
+}
+
+
+@media  screen and (max-width:736px) {
+  #header nav>ul>li>a.menuToggle {
+    padding: 0 1.5em;
+  }
+
+
+  #header nav>ul>li>a {
+    padding: 0 0 0 1.5em;
+  }
+}
+
+#banner .more:after,
+#banner h2:after,
+#banner h2:before,
+#banner:after {
+  content: '';
+  display: block;
+  position: absolute;
+}
+
+
+
+#banner {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  cursor: default;
+  height: 100vh;
+  min-height: 35em;
+  overflow: hidden;
+  position: relative;
+}
+
+#banner h2 {
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -moz-transition: -moz-transform .5s ease,opacity .5s ease;
+  -webkit-transition: -webkit-transform .5s ease,opacity .5s ease;
+  -ms-transition: -ms-transform .5s ease,opacity .5s ease;
+  transition: transform .5s ease,opacity .5s ease;
+  display: inline-block;
+  font-size: 1.75em;
+  opacity: 1;
+  padding: .35em 1em;
+  position: relative;
+  z-index: 1;
+}
+
+#banner h2:after,
+#banner h2:before {
+  -moz-transition: width .85s ease;
+  -webkit-transition: width .85s ease;
+  -ms-transition: width .85s ease;
+  transition: width .85s ease;
+  -moz-transition-delay: .25s;
+  -webkit-transition-delay: .25s;
+  -ms-transition-delay: .25s;
+  transition-delay: .25s;
+  background: #fff;
+  height: 2px;
+  width: 100%;
+}
+
+#banner h2:before {
+  top: 0;
+  left: 0;
+}
+
+#banner h2:after {
+  bottom: 0;
+  right: 0;
+}
+
+#banner p {
+  letter-spacing: .225em;
+  text-transform: uppercase;
+}
+
+#banner .more {
+  -moz-transition: -moz-transform .75s ease,opacity .75s ease;
+  -webkit-transition: -webkit-transform .75s ease,opacity .75s ease;
+  -ms-transition: -ms-transform .75s ease,opacity .75s ease;
+  transition: transform .75s ease,opacity .75s ease;
+  -moz-transition-delay: 3.5s;
+  -webkit-transition-delay: 3.5s;
+  -ms-transition-delay: 3.5s;
+  transition-delay: 3.5s;
+  -moz-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  border: none;
+  bottom: 0;
+  font-size: .8em;
+  height: 8.5em;
+  left: 50%;
+  letter-spacing: .225em;
+  margin-left: -8.5em;
+  opacity: 1;
+  outline: 0;
+  padding-left: .225em;
+  position: absolute;
+  text-transform: uppercase;
+  width: 16em;
+  z-index: 1;
+}
+
+#banner .more:after {
+  background-image: url(assets/prod/images/arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 4em;
+  height: 1.5em;
+  left: 50%;
+  margin: 0 0 0 -.75em;
+  width: 1.5em;
+}
+
+#banner:after {
+  -moz-pointer-events: none;
+  -webkit-pointer-events: none;
+  -ms-pointer-events: none;
+  pointer-events: none;
+  -moz-transition: opacity 3s ease-in-out;
+  -webkit-transition: opacity 3s ease-in-out;
+  -ms-transition: opacity 3s ease-in-out;
+  transition: opacity 3s ease-in-out;
+  -moz-transition-delay: 1.25s;
+  -webkit-transition-delay: 1.25s;
+  -ms-transition-delay: 1.25s;
+  transition-delay: 1.25s;
+  background: #2e3842;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+
+@media  screen and (max-width:736px) {
+  #banner {
+    padding: 7em 3em 5em;
+    height: auto;
+    min-height: 0;
+  }
+
+}
+
+/*my personal CSS*/
+element.style {
+}
+.wrapper>.inner {
+    width: 60em;
+    margin: 0 auto;
+}
+
+.red-text {
+  color: red
+}
+
+#scroll {
+  font-size: .50em
+}
